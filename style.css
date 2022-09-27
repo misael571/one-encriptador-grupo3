@@ -1,0 +1,245 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+}
+
+header{
+    position: absolute;
+    left: 5%;
+    right: 5px;
+    top: 3%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.principal{
+    margin: 20px 20px 40px;
+    
+}
+
+.texto{
+    width: 700px;
+    text-transform: lowercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    margin-left: 20px;
+    margin-top: 50px;
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+}
+::placeholder{ color: #0A3871;}
+
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 20px;
+    font-family:'Inter';
+    font-style: normal;    
+}
+
+.advertencia h6{
+    font-weight: bold;
+    margin-left: 8px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    color: #495057;
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.encriptar{
+    width: 328px;
+    height: 67px;
+
+    font-family: 'Inter';
+    font-weight: bold;
+    
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    color: #FFFFFF;
+}
+
+.desencriptar{
+    box-sizing: border-box;
+    
+    width: 328px;
+    height: 67px;
+
+    font-family: 'Inter';
+    font-weight: bold;
+
+    background: #D8DFE8;
+
+    border: 1 px solid #0A3871;
+    border-radius: 24px;
+
+}
+.secundaria{
+    margin-left: 20px;
+    width: 400px;
+    height: 720px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    
+}
+
+.encriptado{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 385px;
+    height: 550px;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+#ningun{
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 120%;
+    text-align: center;
+}
+#ingresa{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.copiar{
+    display: none;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 37px;
+    box-sizing: border-box;
+    
+    width: 328px;
+    height: 67px;
+
+    font-family: 'Inter';
+    font-weight: bold;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+
+}
+@media screen and (max-width: 1080px){
+    .main{
+        display: block;
+        width: auto;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .secundaria{
+        width: auto;
+        height: 360px;
+        margin: 20px;
+    }
+    .encriptado{
+        background-image: none;
+        width: auto;
+        height: 200px;
+        font-size: 32px;
+        word-wrap: break-word;
+    }
+    .copiar{
+        margin-left: 237px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        display: block;
+        width: auto;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .principal{
+        margin: 0px;
+    }
+    .texto{
+        width: auto;
+        font-size: 18px;
+        margin-left: 3px;
+    }
+    .encriptar{
+        width: 373px;
+        height: 60px;
+    }
+    .desencriptar{
+        width: 373px;
+        height: 60px;
+    }
+    .secundaria{
+        margin-left: 0px;
+        width: auto;
+        height: 360px;
+    }
+    .encriptado{
+        width: auto;
+        height: auto;
+        background-image: none;
+        font-size: 16.9px;
+        line-height: 100%;
+        word-wrap: break-word;
+    }
+    .copiar{
+        width: 373px;
+        height: 60px;
+        margin-left: 0px;
+    }
+    
+}
+
